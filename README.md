@@ -1,5 +1,5 @@
 #eDM Compiler
-##Gulp recipie to build eDMs using HTML/SASS and have the styles moved inline.
+##Gulp recipe to build eDMs using HTML/SASS and have the styles moved inline.
 
 ###Installation
 1. Clone the repo
@@ -8,8 +8,9 @@
 4. `$ gulp` run gulp
 
 ###Troubleshooting
-#### Gulp command not recognised
+
+##### Gulp command not recognised
 Make sure gulp is installed by running `$ npm install gulp -g`
 
-#### Gulp-sass throws an error
+##### Gulp-sass throws an error
 Gulp sass is only supported upto v0.12 of node. run `$ node -v` to check the version installed
